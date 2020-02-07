@@ -1,0 +1,7 @@
+[workspace]
+ members=[
+        "mainProject1",
+        "mainProject2",
+        "msglib",
+        "netlib"
+    ]
