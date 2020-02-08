@@ -4,5 +4,6 @@
         "mainProject2",
         "rc_demo",
         "msglib",
-        "netlib"
+        "netlib",
+        "thread_demo"
     ]

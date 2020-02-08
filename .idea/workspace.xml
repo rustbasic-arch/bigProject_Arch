@@ -22,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rc_demo/src/main.rs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cargo.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="34" column="87" selection-start-line="34" selection-start-column="87" selection-end-line="34" selection-end-column="87" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread_demo/src/main.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -46,8 +55,9 @@
         <option value="$PROJECT_DIR$/msglib/src/lib.rs" />
         <option value="$PROJECT_DIR$/mainProject2/src/main.rs" />
         <option value="$PROJECT_DIR$/mainProject1/src/main.rs" />
-        <option value="$PROJECT_DIR$/Cargo.toml" />
         <option value="$PROJECT_DIR$/rc_demo/src/main.rs" />
+        <option value="$PROJECT_DIR$/Cargo.toml" />
+        <option value="$PROJECT_DIR$/thread_demo/src/main.rs" />
       </list>
     </option>
   </component>
@@ -75,12 +85,12 @@
             <path>
               <item name="rust_big_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="rust_big_project" type="462c0819:PsiDirectoryNode" />
-              <item name="rc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rust_big_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="rust_big_project" type="462c0819:PsiDirectoryNode" />
-              <item name="rc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -109,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cargo Command.Run rc_demo">
+  <component name="RunManager" selected="Cargo Command.Run thread_demo">
     <configuration name="Run mainProject1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package mainProject1 --bin mainProject1" />
@@ -140,8 +150,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Run thread_demo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package thread_demo --bin thread_demo" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo Command.Run thread_demo" />
         <item itemvalue="Cargo Command.Run rc_demo" />
         <item itemvalue="Cargo Command.Run mainProject1" />
         <item itemvalue="Cargo Command.Run mainProject2" />
@@ -179,13 +200,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6171875" visible="true" weight="0.24" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6166667" visible="true" weight="0.48" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49739584" weight="0.22777778" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3828125" side_tool="true" visible="true" weight="0.24" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.496875" weight="0.44777778" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.38333333" side_tool="true" visible="true" weight="0.48" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -280,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainProject2/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -303,8 +317,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rc_demo/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="34" column="87" selection-start-line="34" selection-start-column="87" selection-end-line="34" selection-end-column="87" />
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_demo/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
         </state>
       </provider>
     </entry>
