@@ -6,5 +6,6 @@
         "msglib",
         "netlib",
         "thread_demo",
-        "move_demo"
+        "move_demo",
+        "network_server"
     ]
