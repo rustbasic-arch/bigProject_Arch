@@ -31,8 +31,13 @@
       <sourceFolder url="file://$MODULE_DIR$/thread_demo/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/thread_demo/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/thread_demo/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/move_demo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/move_demo/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/move_demo/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/move_demo/benches" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/mainProject1/target" />
       <excludeFolder url="file://$MODULE_DIR$/mainProject2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/move_demo/target" />
       <excludeFolder url="file://$MODULE_DIR$/msglib/target" />
       <excludeFolder url="file://$MODULE_DIR$/netlib/target" />
       <excludeFolder url="file://$MODULE_DIR$/rc_demo/target" />
