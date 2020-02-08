@@ -2,6 +2,7 @@
  members=[
         "mainProject1",
         "mainProject2",
+        "rc_demo",
         "msglib",
         "netlib"
     ]
